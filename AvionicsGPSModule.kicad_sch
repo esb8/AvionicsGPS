@@ -4884,6 +4884,16 @@
 		)
 		(uuid "04be13f3-b95d-409c-8f29-e348c0da252e")
 	)
+	(text "for vbat should i be adding a physical connector on my pcb for the coincell battery like reserve some space even?"
+		(exclude_from_sim no)
+		(at 70.612 107.188 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "17bfb22c-33bf-42e9-b76b-356903cdba11")
+	)
 	(text "RP2040\n"
 		(exclude_from_sim no)
 		(at 15.24 195.58 0)
@@ -4927,6 +4937,16 @@
 			(justify left bottom)
 		)
 		(uuid "626775e4-52af-477a-a928-805f0689428e")
+	)
+	(text "missing cap?"
+		(exclude_from_sim no)
+		(at 141.224 174.498 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6dede801-d9a0-4159-aa22-a0d8ccb732dc")
 	)
 	(text "12MHZ XTAL"
 		(exclude_from_sim no)
@@ -6802,8 +6822,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ad69e62-9f27-44c9-b207-12b83b221719")
-		(property "Reference" "C15"
-			(at 186.944 156.2163 0)
+		(property "Reference" "C12"
+			(at 186.69 156.2162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6812,7 +6832,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 186.944 158.7563 0)
+			(at 186.69 158.7562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6864,7 +6884,7 @@
 		(instances
 			(project "AvionicsGPSModule"
 				(path "/7badd1e7-b4f4-47e2-b65e-b9f9aeb44838"
-					(reference "C15")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -6880,7 +6900,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1b15d345-9c26-487f-87d9-e906fae140b2")
-		(property "Reference" "R5"
+		(property "Reference" "R4"
 			(at 96.266 134.62 0)
 			(effects
 				(font
@@ -6942,7 +6962,7 @@
 		(instances
 			(project "AvionicsGPSModule"
 				(path "/7badd1e7-b4f4-47e2-b65e-b9f9aeb44838"
-					(reference "R5")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -6958,7 +6978,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1cff9210-5188-4b14-affd-3e2d3a0027db")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR012"
 			(at 106.68 54.61 0)
 			(effects
 				(font
@@ -7007,7 +7027,7 @@
 		(instances
 			(project "AvionicsGPSModule"
 				(path "/7badd1e7-b4f4-47e2-b65e-b9f9aeb44838"
-					(reference "#PWR011")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -7023,7 +7043,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2444258c-5964-45e1-bb94-60bfe5650d9a")
-		(property "Reference" "C10"
+		(property "Reference" "C7"
 			(at 139.954 156.2163 0)
 			(effects
 				(font
@@ -7085,7 +7105,7 @@
 		(instances
 			(project "AvionicsGPSModule"
 				(path "/7badd1e7-b4f4-47e2-b65e-b9f9aeb44838"
-					(reference "C10")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -7100,7 +7120,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "298443fc-35aa-4fd4-95da-537ffb404d0e")
-		(property "Reference" "C5"
+		(property "Reference" "C1"
 			(at 89.4955 25.3574 0)
 			(effects
 				(font
@@ -7162,7 +7182,7 @@
 		(instances
 			(project "AvionicsGPSModule"
 				(path "/7badd1e7-b4f4-47e2-b65e-b9f9aeb44838"
-					(reference "C5")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -7178,7 +7198,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2daa41bb-1994-49dc-aea1-fb9ef9486dbd")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR02"
 			(at 46.99 25.4 0)
 			(effects
 				(font
@@ -7228,7 +7248,7 @@
 		(instances
 			(project "AvionicsGPSModule"
 				(path "/7badd1e7-b4f4-47e2-b65e-b9f9aeb44838"
-					(reference "#PWR023")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -7244,7 +7264,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34bf0aa1-5dd4-4cf5-bf8b-9bda638d49f7")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR026"
 			(at 184.15 101.6 0)
 			(effects
 				(font
@@ -7293,7 +7313,7 @@
 		(instances
 			(project "AvionicsGPSModule"
 				(path "/7badd1e7-b4f4-47e2-b65e-b9f9aeb44838"
-					(reference "#PWR016")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -7309,7 +7329,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "34d3c84f-e622-4501-86ad-c5d690c9eb4a")
-		(property "Reference" "R6"
+		(property "Reference" "R7"
 			(at 140.716 119.38 0)
 			(effects
 				(font
@@ -7371,7 +7391,7 @@
 		(instances
 			(project "AvionicsGPSModule"
 				(path "/7badd1e7-b4f4-47e2-b65e-b9f9aeb44838"
-					(reference "R6")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -7387,7 +7407,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37e9ef13-5499-4118-b59d-e6470cc448d4")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR04"
 			(at 53.34 66.04 0)
 			(effects
 				(font
@@ -7437,7 +7457,7 @@
 		(instances
 			(project "AvionicsGPSModule"
 				(path "/7badd1e7-b4f4-47e2-b65e-b9f9aeb44838"
-					(reference "#PWR07")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -7452,7 +7472,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3967a235-5575-46d4-a89c-71f0421ae03e")
-		(property "Reference" "U6"
+		(property "Reference" "U4"
 			(at 177.8 53.34 0)
 			(effects
 				(font
@@ -7532,7 +7552,7 @@
 		(instances
 			(project "AvionicsGPSModule"
 				(path "/7badd1e7-b4f4-47e2-b65e-b9f9aeb44838"
-					(reference "U6")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -7626,7 +7646,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3b225bfb-fc40-4aad-af35-1306a4f91c61")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR011"
 			(at 104.14 87.63 0)
 			(effects
 				(font
@@ -7675,7 +7695,7 @@
 		(instances
 			(project "AvionicsGPSModule"
 				(path "/7badd1e7-b4f4-47e2-b65e-b9f9aeb44838"
-					(reference "#PWR09")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -7690,7 +7710,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3dacb553-8767-4daf-9f51-a266db5b668c")
-		(property "Reference" "C6"
+		(property "Reference" "C2"
 			(at 116.1655 22.8174 0)
 			(effects
 				(font
@@ -7752,7 +7772,7 @@
 		(instances
 			(project "AvionicsGPSModule"
 				(path "/7badd1e7-b4f4-47e2-b65e-b9f9aeb44838"
-					(reference "C6")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -7767,7 +7787,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4344dee7-532b-43bb-ae72-82a7baa840a0")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR07"
 			(at 68.5388 31.7567 0)
 			(effects
 				(font
@@ -7816,7 +7836,7 @@
 		(instances
 			(project "AvionicsGPSModule"
 				(path "/7badd1e7-b4f4-47e2-b65e-b9f9aeb44838"
-					(reference "#PWR024")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -7831,7 +7851,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4a6950c6-75da-413a-ac2b-7d1d955dd482")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR09"
 			(at 86.9555 22.8111 0)
 			(effects
 				(font
@@ -7880,7 +7900,7 @@
 		(instances
 			(project "AvionicsGPSModule"
 				(path "/7badd1e7-b4f4-47e2-b65e-b9f9aeb44838"
-					(reference "#PWR01")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -7896,7 +7916,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62cecbca-efc3-4725-9696-80fe353aca28")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR028"
 			(at 193.04 166.37 0)
 			(effects
 				(font
@@ -7945,7 +7965,7 @@
 		(instances
 			(project "AvionicsGPSModule"
 				(path "/7badd1e7-b4f4-47e2-b65e-b9f9aeb44838"
-					(reference "#PWR02")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -7961,7 +7981,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b4c3462-d1d6-487c-9127-b75b0df93a44")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR027"
 			(at 191.77 52.07 0)
 			(effects
 				(font
@@ -8010,7 +8030,7 @@
 		(instances
 			(project "AvionicsGPSModule"
 				(path "/7badd1e7-b4f4-47e2-b65e-b9f9aeb44838"
-					(reference "#PWR030")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -8026,7 +8046,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6cc9886d-b93c-453c-b077-e111a7dd81a1")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR01"
 			(at 25.4 154.94 0)
 			(effects
 				(font
@@ -8076,7 +8096,7 @@
 		(instances
 			(project "AvionicsGPSModule"
 				(path "/7badd1e7-b4f4-47e2-b65e-b9f9aeb44838"
-					(reference "#PWR015")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -8092,7 +8112,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75705789-f5f9-46a9-965f-06ef4f314b3e")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR08"
 			(at 77.47 49.53 0)
 			(effects
 				(font
@@ -8141,7 +8161,7 @@
 		(instances
 			(project "AvionicsGPSModule"
 				(path "/7badd1e7-b4f4-47e2-b65e-b9f9aeb44838"
-					(reference "#PWR013")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -8157,7 +8177,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "785e2000-25eb-4c23-92d4-d575587d7441")
-		(property "Reference" "C7"
+		(property "Reference" "C14"
 			(at 186.69 111.7535 0)
 			(effects
 				(font
@@ -8219,7 +8239,7 @@
 		(instances
 			(project "AvionicsGPSModule"
 				(path "/7badd1e7-b4f4-47e2-b65e-b9f9aeb44838"
-					(reference "C7")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -8235,7 +8255,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a2a2622-83fc-4945-bfd5-3f571e26f565")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR024"
 			(at 175.26 85.09 0)
 			(effects
 				(font
@@ -8284,7 +8304,7 @@
 		(instances
 			(project "AvionicsGPSModule"
 				(path "/7badd1e7-b4f4-47e2-b65e-b9f9aeb44838"
-					(reference "#PWR031")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -8300,7 +8320,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "829fafbe-aeca-4d92-beac-9c22e3927c7a")
-		(property "Reference" "R4"
+		(property "Reference" "R5"
 			(at 103.632 134.62 0)
 			(effects
 				(font
@@ -8362,7 +8382,7 @@
 		(instances
 			(project "AvionicsGPSModule"
 				(path "/7badd1e7-b4f4-47e2-b65e-b9f9aeb44838"
-					(reference "R4")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -8378,7 +8398,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87199125-9a7c-40ee-a58b-74b76c15c76e")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR021"
 			(at 152.4 102.87 0)
 			(effects
 				(font
@@ -8427,7 +8447,7 @@
 		(instances
 			(project "AvionicsGPSModule"
 				(path "/7badd1e7-b4f4-47e2-b65e-b9f9aeb44838"
-					(reference "#PWR017")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -8442,7 +8462,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8939dab2-8354-40cb-8bc5-77ed82960b4d")
-		(property "Reference" "R12"
+		(property "Reference" "R8"
 			(at 152.4 52.07 0)
 			(effects
 				(font
@@ -8504,7 +8524,7 @@
 		(instances
 			(project "AvionicsGPSModule"
 				(path "/7badd1e7-b4f4-47e2-b65e-b9f9aeb44838"
-					(reference "R12")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -8520,7 +8540,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "96cc9fed-f37f-43e7-8982-ac9d4dc0e9c6")
-		(property "Reference" "C19"
+		(property "Reference" "C3"
 			(at 119.38 140.9637 0)
 			(effects
 				(font
@@ -8582,7 +8602,7 @@
 		(instances
 			(project "AvionicsGPSModule"
 				(path "/7badd1e7-b4f4-47e2-b65e-b9f9aeb44838"
-					(reference "C19")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -8598,8 +8618,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96e04330-2282-41f6-8179-7a073984b5b5")
-		(property "Reference" "C13"
-			(at 169.164 156.2163 0)
+		(property "Reference" "C10"
+			(at 168.91 156.2162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8608,7 +8628,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 169.164 158.7563 0)
+			(at 168.91 158.7562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8660,7 +8680,7 @@
 		(instances
 			(project "AvionicsGPSModule"
 				(path "/7badd1e7-b4f4-47e2-b65e-b9f9aeb44838"
-					(reference "C13")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -8751,7 +8771,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9e597da3-4187-4b7a-b8ac-5604aad73bf9")
-		(property "Reference" "C8"
+		(property "Reference" "C15"
 			(at 149.86 114.2937 0)
 			(effects
 				(font
@@ -8814,7 +8834,7 @@
 		(instances
 			(project "AvionicsGPSModule"
 				(path "/7badd1e7-b4f4-47e2-b65e-b9f9aeb44838"
-					(reference "C8")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -8830,7 +8850,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a159a7aa-3ad9-47a7-81a7-7bc4d32521ef")
-		(property "Reference" "R3"
+		(property "Reference" "R1"
 			(at 43.18 64.262 90)
 			(effects
 				(font
@@ -8890,7 +8910,7 @@
 		(instances
 			(project "AvionicsGPSModule"
 				(path "/7badd1e7-b4f4-47e2-b65e-b9f9aeb44838"
-					(reference "R3")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -8906,7 +8926,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a436f395-b38c-4930-90bb-e8c8326b4b1e")
-		(property "Reference" "C11"
+		(property "Reference" "C8"
 			(at 148.844 156.2163 0)
 			(effects
 				(font
@@ -8968,7 +8988,7 @@
 		(instances
 			(project "AvionicsGPSModule"
 				(path "/7badd1e7-b4f4-47e2-b65e-b9f9aeb44838"
-					(reference "C11")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -8984,7 +9004,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7f7a5d6-141a-4708-b1f2-fe78e5de8406")
-		(property "Reference" "C1"
+		(property "Reference" "C6"
 			(at 138.43 143.5162 0)
 			(effects
 				(font
@@ -9046,7 +9066,7 @@
 		(instances
 			(project "AvionicsGPSModule"
 				(path "/7badd1e7-b4f4-47e2-b65e-b9f9aeb44838"
-					(reference "C1")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -9062,7 +9082,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a99b51dd-1aa2-4f1a-a44a-32bd3e3e45b6")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR016"
 			(at 128.27 168.91 0)
 			(effects
 				(font
@@ -9111,7 +9131,7 @@
 		(instances
 			(project "AvionicsGPSModule"
 				(path "/7badd1e7-b4f4-47e2-b65e-b9f9aeb44838"
-					(reference "#PWR019")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -9127,7 +9147,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abb0eeb2-aaf7-404c-ac0d-f0c59c0eeb30")
-		(property "Reference" "C9"
+		(property "Reference" "C5"
 			(at 130.81 157.4863 0)
 			(effects
 				(font
@@ -9189,7 +9209,7 @@
 		(instances
 			(project "AvionicsGPSModule"
 				(path "/7badd1e7-b4f4-47e2-b65e-b9f9aeb44838"
-					(reference "C9")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -9205,7 +9225,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "acde1d36-a105-48ab-a119-8d3b06ad9ea0")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR03"
 			(at 53.34 58.42 0)
 			(effects
 				(font
@@ -9255,7 +9275,7 @@
 		(instances
 			(project "AvionicsGPSModule"
 				(path "/7badd1e7-b4f4-47e2-b65e-b9f9aeb44838"
-					(reference "#PWR014")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -9270,7 +9290,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ad6711fa-efa7-43f5-91f5-8854c68510d6")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR019"
 			(at 137.16 146.05 0)
 			(effects
 				(font
@@ -9319,7 +9339,7 @@
 		(instances
 			(project "AvionicsGPSModule"
 				(path "/7badd1e7-b4f4-47e2-b65e-b9f9aeb44838"
-					(reference "#PWR021")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -9402,7 +9422,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b202e449-14b2-4f6b-bf5d-b8aa9089747c")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR018"
 			(at 135.89 153.67 0)
 			(effects
 				(font
@@ -9451,7 +9471,7 @@
 		(instances
 			(project "AvionicsGPSModule"
 				(path "/7badd1e7-b4f4-47e2-b65e-b9f9aeb44838"
-					(reference "#PWR020")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -9467,7 +9487,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b219215f-9520-4ac9-9944-8dc123219d0c")
-		(property "Reference" "C23"
+		(property "Reference" "C16"
 			(at 185.4263 35.56 90)
 			(effects
 				(font
@@ -9527,7 +9547,7 @@
 		(instances
 			(project "AvionicsGPSModule"
 				(path "/7badd1e7-b4f4-47e2-b65e-b9f9aeb44838"
-					(reference "C23")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -9543,8 +9563,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5d40aac-9eb2-4359-b6d8-1506a8e87eea")
-		(property "Reference" "C16"
-			(at 195.834 156.2163 0)
+		(property "Reference" "C13"
+			(at 195.58 156.2162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9553,7 +9573,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 195.834 158.7563 0)
+			(at 195.58 158.7562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9605,7 +9625,7 @@
 		(instances
 			(project "AvionicsGPSModule"
 				(path "/7badd1e7-b4f4-47e2-b65e-b9f9aeb44838"
-					(reference "C16")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -9621,8 +9641,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b775cc23-b3b6-42df-94ca-f617ccfbcc8a")
-		(property "Reference" "C12"
-			(at 159.004 156.2163 0)
+		(property "Reference" "C9"
+			(at 158.75 156.2162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9631,7 +9651,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 159.004 158.7563 0)
+			(at 158.75 158.7562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9683,7 +9703,7 @@
 		(instances
 			(project "AvionicsGPSModule"
 				(path "/7badd1e7-b4f4-47e2-b65e-b9f9aeb44838"
-					(reference "C12")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -9699,7 +9719,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7d0a520-24b8-41ce-b942-9b26af576b79")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR05"
 			(at 53.34 73.66 0)
 			(effects
 				(font
@@ -9749,7 +9769,7 @@
 		(instances
 			(project "AvionicsGPSModule"
 				(path "/7badd1e7-b4f4-47e2-b65e-b9f9aeb44838"
-					(reference "#PWR08")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -9765,7 +9785,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bbc3afa7-8444-4459-840a-69c2f82306be")
-		(property "Reference" "R11"
+		(property "Reference" "R6"
 			(at 143.51 52.705 90)
 			(effects
 				(font
@@ -9825,7 +9845,7 @@
 		(instances
 			(project "AvionicsGPSModule"
 				(path "/7badd1e7-b4f4-47e2-b65e-b9f9aeb44838"
-					(reference "R11")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -9841,7 +9861,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bfc8130e-6474-4f48-9a0d-1698c606a04e")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR010"
 			(at 86.9555 38.0511 0)
 			(effects
 				(font
@@ -9891,7 +9911,7 @@
 		(instances
 			(project "AvionicsGPSModule"
 				(path "/7badd1e7-b4f4-47e2-b65e-b9f9aeb44838"
-					(reference "#PWR05")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -9907,7 +9927,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c431eed5-1b48-40ad-bf04-ba0f71d5f7d5")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR06"
 			(at 63.5 33.02 0)
 			(effects
 				(font
@@ -9957,7 +9977,7 @@
 		(instances
 			(project "AvionicsGPSModule"
 				(path "/7badd1e7-b4f4-47e2-b65e-b9f9aeb44838"
-					(reference "#PWR012")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -9973,7 +9993,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4ba51d7-8982-4aad-adef-147270e89d4b")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR014"
 			(at 113.6255 21.5411 0)
 			(effects
 				(font
@@ -10022,7 +10042,7 @@
 		(instances
 			(project "AvionicsGPSModule"
 				(path "/7badd1e7-b4f4-47e2-b65e-b9f9aeb44838"
-					(reference "#PWR06")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -10038,7 +10058,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5edb909-fe00-48ce-8ee5-ca05b372704d")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR025"
 			(at 179.07 110.49 0)
 			(effects
 				(font
@@ -10087,7 +10107,7 @@
 		(instances
 			(project "AvionicsGPSModule"
 				(path "/7badd1e7-b4f4-47e2-b65e-b9f9aeb44838"
-					(reference "#PWR026")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -10188,7 +10208,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1f59d2c-ae49-495e-b865-720688fcb57c")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR015"
 			(at 116.84 128.27 0)
 			(effects
 				(font
@@ -10237,7 +10257,7 @@
 		(instances
 			(project "AvionicsGPSModule"
 				(path "/7badd1e7-b4f4-47e2-b65e-b9f9aeb44838"
-					(reference "#PWR022")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -10456,7 +10476,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da6cef88-3399-4321-b4a2-6260eb76ac55")
-		(property "Reference" "C17"
+		(property "Reference" "C4"
 			(at 128.524 143.5163 0)
 			(effects
 				(font
@@ -10518,7 +10538,7 @@
 		(instances
 			(project "AvionicsGPSModule"
 				(path "/7badd1e7-b4f4-47e2-b65e-b9f9aeb44838"
-					(reference "C17")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -10533,7 +10553,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ddcc648f-3957-434c-9893-6d3bdb228443")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR022"
 			(at 153.67 125.73 0)
 			(effects
 				(font
@@ -10582,7 +10602,7 @@
 		(instances
 			(project "AvionicsGPSModule"
 				(path "/7badd1e7-b4f4-47e2-b65e-b9f9aeb44838"
-					(reference "#PWR025")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -10598,7 +10618,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e246fdda-8e13-49e8-a88d-530b8f9b93d1")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR023"
 			(at 175.26 44.45 0)
 			(effects
 				(font
@@ -10607,12 +10627,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 175.26 36.195 0)
+		(property "Value" "+3.3V"
+			(at 177.8 39.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -10647,7 +10668,7 @@
 		(instances
 			(project "AvionicsGPSModule"
 				(path "/7badd1e7-b4f4-47e2-b65e-b9f9aeb44838"
-					(reference "#PWR029")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -10663,7 +10684,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4c2683b-36a7-477b-be1b-4fd30297fcf8")
-		(property "Reference" "U4"
+		(property "Reference" "U1"
 			(at 23.622 160.7119 90)
 			(effects
 				(font
@@ -10888,7 +10909,7 @@
 		(instances
 			(project "AvionicsGPSModule"
 				(path "/7badd1e7-b4f4-47e2-b65e-b9f9aeb44838"
-					(reference "U4")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -10904,7 +10925,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5fce8c5-84ed-43f2-a637-ca9de8c4520e")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR020"
 			(at 147.32 60.96 0)
 			(effects
 				(font
@@ -10954,7 +10975,7 @@
 		(instances
 			(project "AvionicsGPSModule"
 				(path "/7badd1e7-b4f4-47e2-b65e-b9f9aeb44838"
-					(reference "#PWR032")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -10970,7 +10991,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6a4f02b-1513-44b3-a366-0268b693b73a")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR017"
 			(at 130.81 158.75 0)
 			(effects
 				(font
@@ -11019,7 +11040,7 @@
 		(instances
 			(project "AvionicsGPSModule"
 				(path "/7badd1e7-b4f4-47e2-b65e-b9f9aeb44838"
-					(reference "#PWR018")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -11034,7 +11055,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e6e3dd67-d4d8-49df-844f-ea2cbc963bbf")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR013"
 			(at 109.22 87.63 0)
 			(effects
 				(font
@@ -11083,7 +11104,7 @@
 		(instances
 			(project "AvionicsGPSModule"
 				(path "/7badd1e7-b4f4-47e2-b65e-b9f9aeb44838"
-					(reference "#PWR010")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -11099,7 +11120,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3627ec8-3f7f-4fe2-b542-03a8897dbedb")
-		(property "Reference" "R1"
+		(property "Reference" "R3"
 			(at 79.502 57.15 0)
 			(effects
 				(font
@@ -11161,7 +11182,7 @@
 		(instances
 			(project "AvionicsGPSModule"
 				(path "/7badd1e7-b4f4-47e2-b65e-b9f9aeb44838"
-					(reference "R1")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -11284,8 +11305,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f70e2da5-40e6-4695-9bf6-3a5d532148f6")
-		(property "Reference" "C14"
-			(at 179.324 156.2163 0)
+		(property "Reference" "C11"
+			(at 179.07 156.2162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11294,7 +11315,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 179.324 158.7563 0)
+			(at 179.07 158.7562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11346,7 +11367,7 @@
 		(instances
 			(project "AvionicsGPSModule"
 				(path "/7badd1e7-b4f4-47e2-b65e-b9f9aeb44838"
-					(reference "C14")
+					(reference "C11")
 					(unit 1)
 				)
 			)
