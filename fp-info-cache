@@ -1,5 +1,5 @@
-24965741904197632
-ABM8-272-T3
+24971022724100181
+ABM8_272_T3
 ABM8-272-T3_ABR
 
 ABM8-272-T3 
@@ -13,6 +13,27 @@ AO3400A
 0
 3
 3
+AO3400A
+SOT-23-3L_AOS-L
+
+AO3400A 
+0
+3
+3
+AO3400A
+SOT-23-3L_AOS-M
+
+AO3400A 
+0
+3
+3
+AP2112K_3_3TRG1
+SOT95P285X140-5N
+
+
+0
+5
+5
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -27,6 +48,13 @@ audio belton reverb
 0
 7
 7
+AvionicsFootprints
+MC-311D
+
+
+0
+16
+16
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -58449,7 +58477,7 @@ heatsink
 0
 0
 0
-HelloKittyBoard
+HelloKittyOutline
 HELLO-KITTY-OUTLINE
 
 
@@ -65869,7 +65897,7 @@ Yellow 5381 Series LED
 0
 2
 2
-MC311D
+MC-311D
 USB-C-SMD_MC-311D
 
 
@@ -69859,13 +69887,6 @@ CONN-TH_2P-P5.00_KFM736H-5.0-2X1P footprint C2974934
 0
 2
 2
-PCM_JLCPCB
-CONN-TH_4P-P5.08_DB129VG-5.08-4P-GN-S
-CONN-TH_4P-P5.08_DB129VG-5.08-4P-GN-S footprint
-CONN-TH_4P-P5.08_DB129VG-5.08-4P-GN-S footprint C2981774
-0
-4
-4
 PCM_JLCPCB
 CRYSTAL-SMD_4P-L3.2-W2.5-BL
 CRYSTAL-SMD_4P-L3.2-W2.5-BL footprint

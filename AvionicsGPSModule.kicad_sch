@@ -4026,14 +4026,14 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J1"
-				(at 0 8.382 0)
+				(at 0 8.8145 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4041,7 +4041,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4065,7 +4065,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "connector_0_1"
@@ -4092,7 +4091,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4110,7 +4109,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9436,7 +9435,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 139.446 64.008 0)
 			(effects
 				(font
@@ -9462,10 +9461,10 @@
 				)
 			)
 		)
-		(pin ""
+		(pin "1"
 			(uuid "9fb29d10-cacb-43c9-a20e-b58e0659fb86")
 		)
-		(pin ""
+		(pin "2"
 			(uuid "9fb29d10-cacb-43c9-a20e-b58e0659fb87")
 		)
 		(instances
@@ -10138,7 +10137,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ABM8-272-T3:ABM8-272-T3_ABR"
+		(property "Footprint" "ABM8_272_T3:ABM8-272-T3_ABR"
 			(at 153.67 116.84 0)
 			(effects
 				(font
@@ -10373,7 +10372,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MC311D:USB-C-SMD_MC-311D"
+		(property "Footprint" "MC-311D:USB-C-SMD_MC-311D"
 			(at 27.686 50.8 0)
 			(effects
 				(font
@@ -11197,7 +11196,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4ecc71e-4120-41e2-b74a-577d324c3e44")
-		(property "Reference" "D2"
+		(property "Reference" "D1"
 			(at 80.01 48.1646 0)
 			(effects
 				(font
@@ -11350,7 +11349,7 @@
 		(instances
 			(project ""
 				(path "/7badd1e7-b4f4-47e2-b65e-b9f9aeb44838"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
