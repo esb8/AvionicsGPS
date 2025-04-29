@@ -20,7 +20,7 @@
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": true,
+      "lockedItems": false,
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -43,12 +43,13 @@
       "drawing_sheet",
       "bitmaps",
       "pads",
+      "zones",
       "drc_warnings",
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_0ffffff7_ffffffbf",
-    "zone_display_mode": 0
+    "visible_layers": "00000000_00000000_0ffffff7_ffffffff",
+    "zone_display_mode": 1
   },
   "git": {
     "repo_type": "",
