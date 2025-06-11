@@ -5,4 +5,5 @@
   (lib (name "AP2112K_3_3TRG1")(type "KiCad")(uri "${KIPRJMOD}/AP2112K_3_3TRG1")(options "")(descr ""))
   (lib (name "MC-311D")(type "KiCad")(uri "${KIPRJMOD}/MC-311D")(options "")(descr ""))
   (lib (name "HelloKittyOutline")(type "KiCad")(uri "${KIPRJMOD}/HelloKittyOutline")(options "")(descr ""))
+  (lib (name "BU2032SM_FH_GTR")(type "KiCad")(uri "${KIPRJMOD}/BU2032SM-FH-GTR/BU2032SM_FH_GTR")(options "")(descr ""))
 )
