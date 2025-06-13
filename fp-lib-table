@@ -6,4 +6,6 @@
   (lib (name "MC-311D")(type "KiCad")(uri "${KIPRJMOD}/MC-311D")(options "")(descr ""))
   (lib (name "HelloKittyOutline")(type "KiCad")(uri "${KIPRJMOD}/HelloKittyOutline")(options "")(descr ""))
   (lib (name "BU2032SM_FH_GTR")(type "KiCad")(uri "${KIPRJMOD}/BU2032SM-FH-GTR/BU2032SM_FH_GTR")(options "")(descr ""))
+  (lib (name "Passive Components")(type "KiCad")(uri "${KIPRJMOD}/Passive Components/Passive.pretty")(options "")(descr ""))
+  (lib (name "logo")(type "KiCad")(uri "${KIPRJMOD}/Logo/logo.pretty")(options "")(descr ""))
 )
