@@ -8993,6 +8993,17 @@
 		)
 		(uuid "1decc73b-414e-479d-9cce-5b2131e1652f")
 	)
+	(text "CAN Controller\n"
+		(exclude_from_sim no)
+		(at 202.692 125.222 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3a9b0d35-32f6-49cc-82c7-9cbdcebd2aae")
+	)
 	(text "RP2040 Capacitors\n"
 		(exclude_from_sim no)
 		(at 178.562 121.158 0)
@@ -9039,7 +9050,7 @@
 	)
 	(text "/lower resistance = lower slew rate, GNDED RS BUT EVERYONE SHOUDL DO THE SAME\n\n"
 		(exclude_from_sim no)
-		(at 362.458 12.446 0)
+		(at 259.08 16.256 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9047,29 +9058,9 @@
 		)
 		(uuid "97407840-fc72-4e8e-9101-a0ee59a0e4dc")
 	)
-	(text "change stackup\n"
-		(exclude_from_sim no)
-		(at 330.2 18.288 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "aca35d92-c52c-4e59-9a39-ac8f38855600")
-	)
-	(text "NO LCSC PART"
-		(exclude_from_sim no)
-		(at 329.438 40.132 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c1c4a5ef-6841-4381-a7ca-4909ae530dad")
-	)
 	(text "bring up temrination resistors, there should only be two\n"
 		(exclude_from_sim no)
-		(at 362.966 9.144 0)
+		(at 236.982 17.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11049,6 +11040,16 @@
 		)
 		(uuid "db63b6f2-c2d8-41f9-b2e0-1e67a1f2e22f")
 	)
+	(polyline
+		(pts
+			(xy 200.66 127) (xy 284.48 127)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "dd4e91f3-a1e9-4b9a-8f83-ad38067c5a2d")
+	)
 	(wire
 		(pts
 			(xy 119.38 132.08) (xy 118.11 132.08)
@@ -11967,7 +11968,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C96140"
 			(at 246.38 86.36 0)
 			(effects
 				(font
@@ -21104,22 +21105,23 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fe4ed858-554d-4dd9-8f86-f718c2f19942")
 		(property "Reference" "X2"
-			(at 207.01 97.79 0)
+			(at 220.98 96.5199 90)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "XTM32020000QT00351001"
-			(at 209.55 97.79 0)
+		(property "Value" "XTM3202QT00351001"
+			(at 205.232 87.122 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
