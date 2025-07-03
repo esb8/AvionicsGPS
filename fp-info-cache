@@ -1,4 +1,4 @@
-24955814969973749
+24964973756328483
 ABM8_272_T3
 ABM8-272-T3_ABR
 
@@ -70189,6 +70189,13 @@ LQFP QFP
 48
 48
 PCM_JLCPCB
+LQFP-48_L7.0-W7.0-P0.50-LS9.0-BL
+LQFP, 48 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/ltc2358-16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+LQFP QFP
+0
+48
+48
+PCM_JLCPCB
 L_0402
 Inductor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
 inductor
@@ -70258,6 +70265,13 @@ OSC-SMD_4P-L3.2-W2.5-BL_SIT8008BI footprint C9010
 0
 4
 4
+PCM_JLCPCB
+OSC-SMD_L5.0-W3.2
+OSC-SMD_L5.0-W3.2 footprint
+OSC-SMD_L5.0-W3.2 footprint C112574
+0
+2
+2
 PCM_JLCPCB
 PG-TO-263-5_L10.2-W8.7-P1.70-LS14.4-BR
 PG-TO-263-5_L10.2-W8.7-P1.70-LS14.4-BR footprint
@@ -70426,6 +70440,20 @@ SOIC-20_L13.0-W7.6-P1.27-LS10.3-BL footprint C5625
 0
 20
 20
+PCM_JLCPCB
+SOP-4_3.8x4.1mm_P2.54mm
+SOP, 4 Pin (http://www.ixysic.com/home/pdfs.nsf/www/CPC1017N.pdf/$file/CPC1017N.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOP SO
+0
+4
+4
+PCM_JLCPCB
+SOP-4_4.4x2.6mm_P1.27mm
+SOP, 4 Pin (http://www.vishay.com/docs/83510/tcmt1100.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOP SO
+0
+4
+4
 PCM_JLCPCB
 SOT-23-3_L2.9-W1.3-P0.95-LS2.4-BR
 SOT-23-3_L2.9-W1.3-P0.95-LS2.4-BR footprint
@@ -70601,6 +70629,13 @@ SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2 footprint C318884
 0
 4
 4
+PCM_JLCPCB
+SW_TS-1088-AR02016
+
+
+0
+2
+2
 PCM_JLCPCB
 Sensirion_SCD4x-1EP_10.1x10.1mm_P1.25mm_EP4.8x4.8mm
 Sensirion SCD4x QFN, 20 Pin (https://sensirion.com/media/documents/C4B87CE6/627C2DCD/CD_DS_SCD40_SCD41_Datasheet_D1.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
