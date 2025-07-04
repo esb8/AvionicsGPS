@@ -9387,17 +9387,6 @@
 		)
 		(uuid "0f4ca8c1-3185-4728-a9bd-fdda39dae9fb")
 	)
-	(text "RP2040\n"
-		(exclude_from_sim no)
-		(at 23.368 166.116 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1c39e4c6-96e9-4769-9c88-4ba47596b524")
-	)
 	(text "MARS GPS Module\n\n\n\n"
 		(exclude_from_sim no)
 		(at 182.372 201.168 0)
@@ -9488,16 +9477,6 @@
 			(justify left bottom)
 		)
 		(uuid "cf4f8d89-e808-4ab5-99de-8fceb05518a7")
-	)
-	(text "ask abt schottky diode\n"
-		(exclude_from_sim no)
-		(at 52.832 92.964 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "df60f567-ef98-4546-a2f9-359847ee56fa")
 	)
 	(text "GPS\n"
 		(exclude_from_sim no)
@@ -10468,16 +10447,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 176.53) (xy 58.42 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42db1e48-6e60-42f3-a396-8182cc39bf93")
-	)
-	(wire
-		(pts
 			(xy 264.16 101.6) (xy 261.62 101.6)
 		)
 		(stroke
@@ -11335,6 +11304,16 @@
 			(type default)
 		)
 		(uuid "b7fe6fe1-f5df-4a22-87cc-70ced3b15355")
+	)
+	(wire
+		(pts
+			(xy 58.42 175.26) (xy 58.42 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba136f85-e11a-41db-8be0-c783292ce23c")
 	)
 	(polyline
 		(pts
@@ -12554,7 +12533,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 58.42 186.69 0)
+		(at 53.34 182.88 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12562,7 +12541,7 @@
 		(dnp no)
 		(uuid "10809af4-7f9c-4ba6-b03e-67f1dab50fc8")
 		(property "Reference" "#PWR013"
-			(at 58.42 193.04 0)
+			(at 46.99 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12571,7 +12550,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 62.738 188.214 0)
+			(at 51.816 187.198 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12579,7 +12558,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 186.69 0)
+			(at 53.34 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12588,7 +12567,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 186.69 0)
+			(at 53.34 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12597,7 +12576,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 58.42 186.69 0)
+			(at 53.34 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13689,7 +13668,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 35.56 181.61 90)
+		(at 78.74 182.88 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13697,7 +13676,7 @@
 		(dnp no)
 		(uuid "2ceb8916-05b8-435f-bfdb-18ff64206292")
 		(property "Reference" "#PWR010"
-			(at 39.37 181.61 0)
+			(at 74.93 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13706,7 +13685,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 30.988 181.61 0)
+			(at 83.312 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13714,7 +13693,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 181.61 0)
+			(at 78.74 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13723,7 +13702,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 181.61 0)
+			(at 78.74 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13732,7 +13711,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 35.56 181.61 0)
+			(at 78.74 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14894,7 +14873,7 @@
 	)
 	(symbol
 		(lib_id "Device:Q_NMOS_DGS")
-		(at 55.88 181.61 0)
+		(at 58.42 180.34 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14903,25 +14882,23 @@
 		(fields_autoplaced yes)
 		(uuid "4bcf582e-316a-458d-98d2-628acd5fd77e")
 		(property "Reference" "Q2"
-			(at 63.5 180.3399 0)
+			(at 58.42 186.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "AO3400A"
-			(at 63.5 182.8799 0)
+			(at 58.42 189.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "AO3400A:SOT-23-3L_AOS"
-			(at 60.96 179.07 0)
+			(at 60.96 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14930,7 +14907,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 181.61 0)
+			(at 58.42 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14939,7 +14916,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.88 181.61 0)
+			(at 58.42 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14947,7 +14924,7 @@
 			)
 		)
 		(property "LCSC" "C20917"
-			(at 55.88 181.61 0)
+			(at 58.42 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15040,7 +15017,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0402,51Ω")
-		(at 46.99 181.61 90)
+		(at 67.31 182.88 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15048,7 +15025,7 @@
 		(dnp no)
 		(uuid "5d0fd2aa-e05e-485d-818a-385a93ecdb7c")
 		(property "Reference" "R12"
-			(at 45.212 178.816 90)
+			(at 69.088 185.674 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15057,7 +15034,7 @@
 			)
 		)
 		(property "Value" "51Ω"
-			(at 46.99 181.61 90)
+			(at 67.31 182.88 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -15066,7 +15043,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:R_0402"
-			(at 46.99 183.388 90)
+			(at 67.31 181.102 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15075,7 +15052,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF510JTCE_C25125.pdf"
-			(at 46.99 181.61 0)
+			(at 67.31 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15084,7 +15061,7 @@
 			)
 		)
 		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 51Ω 0402 Chip Resistor - Surface Mount ROHS"
-			(at 46.99 181.61 0)
+			(at 67.31 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15093,7 +15070,7 @@
 			)
 		)
 		(property "LCSC" "C25125"
-			(at 46.99 181.61 0)
+			(at 67.31 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15102,7 +15079,7 @@
 			)
 		)
 		(property "Stock" "1679593"
-			(at 46.99 181.61 0)
+			(at 67.31 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15111,7 +15088,7 @@
 			)
 		)
 		(property "Price" "0.004USD"
-			(at 46.99 181.61 0)
+			(at 67.31 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15120,7 +15097,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 46.99 181.61 0)
+			(at 67.31 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15129,7 +15106,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 46.99 181.61 0)
+			(at 67.31 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15138,7 +15115,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 46.99 181.61 0)
+			(at 67.31 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15147,7 +15124,7 @@
 			)
 		)
 		(property "Class" "Preferred Component"
-			(at 46.99 181.61 0)
+			(at 67.31 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15156,7 +15133,7 @@
 			)
 		)
 		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 46.99 181.61 0)
+			(at 67.31 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15165,7 +15142,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 46.99 181.61 0)
+			(at 67.31 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15174,7 +15151,7 @@
 			)
 		)
 		(property "Part" "0402WGF510JTCE"
-			(at 46.99 181.61 0)
+			(at 67.31 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15183,7 +15160,7 @@
 			)
 		)
 		(property "Resistance" "51Ω"
-			(at 46.99 181.61 0)
+			(at 67.31 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15192,7 +15169,7 @@
 			)
 		)
 		(property "Power(Watts)" "62.5mW"
-			(at 46.99 181.61 0)
+			(at 67.31 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15201,7 +15178,7 @@
 			)
 		)
 		(property "Type" "Thick Film Resistors"
-			(at 46.99 181.61 0)
+			(at 67.31 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15210,7 +15187,7 @@
 			)
 		)
 		(property "Overload Voltage (Max)" "50V"
-			(at 46.99 181.61 0)
+			(at 67.31 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15219,7 +15196,7 @@
 			)
 		)
 		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 46.99 181.61 0)
+			(at 67.31 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15228,7 +15205,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 46.99 181.61 0)
+			(at 67.31 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15237,7 +15214,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 46.99 181.61 0)
+			(at 67.31 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18945,7 +18922,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Diodes:LED,0805,Red")
-		(at 39.37 181.61 90)
+		(at 74.93 182.88 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18954,7 +18931,7 @@
 		(fields_autoplaced yes)
 		(uuid "be3d8830-3199-4e52-9f69-b255bbb78e8e")
 		(property "Reference" "D5"
-			(at 38.0046 177.8 0)
+			(at 76.2954 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18963,7 +18940,7 @@
 			)
 		)
 		(property "Value" "Red"
-			(at 40.5447 177.8 0)
+			(at 73.7553 186.69 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -18972,7 +18949,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:D_0805"
-			(at 39.37 183.388 90)
+			(at 74.93 181.102 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18981,7 +18958,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Foshan-NationStar-Optoelectronics-NCD0805R1_C84256.pdf"
-			(at 39.37 181.61 0)
+			(at 74.93 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18990,7 +18967,7 @@
 			)
 		)
 		(property "Description" "25mA Colorless transparent lens 67mcd~195mcd -30°C~+85°C 615nm~630nm Individual diode Red 130° 65mW 1.6V~2.6V 0805 LED Indication - Discrete ROHS"
-			(at 39.37 181.61 0)
+			(at 74.93 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18999,7 +18976,7 @@
 			)
 		)
 		(property "LCSC" "C84256"
-			(at 39.37 181.61 0)
+			(at 74.93 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19008,7 +18985,7 @@
 			)
 		)
 		(property "Stock" "1511494"
-			(at 39.37 181.61 0)
+			(at 74.93 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19017,7 +18994,7 @@
 			)
 		)
 		(property "Price" "0.016USD"
-			(at 39.37 181.61 0)
+			(at 74.93 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19026,7 +19003,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 39.37 181.61 0)
+			(at 74.93 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19035,7 +19012,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 39.37 181.61 0)
+			(at 74.93 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19044,7 +19021,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 39.37 181.61 0)
+			(at 74.93 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19053,7 +19030,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 39.37 181.61 0)
+			(at 74.93 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19062,7 +19039,7 @@
 			)
 		)
 		(property "Category" "Optoelectronics,Light Emitting Diodes (LED)"
-			(at 39.37 181.61 0)
+			(at 74.93 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19071,7 +19048,7 @@
 			)
 		)
 		(property "Manufacturer" "Foshan NationStar Optoelectronics"
-			(at 39.37 181.61 0)
+			(at 74.93 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19080,7 +19057,7 @@
 			)
 		)
 		(property "Part" "NCD0805R1"
-			(at 39.37 181.61 0)
+			(at 74.93 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19089,7 +19066,7 @@
 			)
 		)
 		(property "Operating Temperature" "-30°C~+85°C"
-			(at 39.37 181.61 0)
+			(at 74.93 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19098,7 +19075,7 @@
 			)
 		)
 		(property "Viewing Angle" "130°"
-			(at 39.37 181.61 0)
+			(at 74.93 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19107,7 +19084,7 @@
 			)
 		)
 		(property "Forward Current" "25mA"
-			(at 39.37 181.61 0)
+			(at 74.93 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19116,7 +19093,7 @@
 			)
 		)
 		(property "Forward Voltage (VF)" "1.6V~2.6V"
-			(at 39.37 181.61 0)
+			(at 74.93 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19125,7 +19102,7 @@
 			)
 		)
 		(property "Luminous Intensity" "67mcd~195mcd"
-			(at 39.37 181.61 0)
+			(at 74.93 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19134,7 +19111,7 @@
 			)
 		)
 		(property "Dominant Wavelength" "615nm~630nm"
-			(at 39.37 181.61 0)
+			(at 74.93 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19143,7 +19120,7 @@
 			)
 		)
 		(property "Power Dissipation" "65mW"
-			(at 39.37 181.61 0)
+			(at 74.93 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19152,7 +19129,7 @@
 			)
 		)
 		(property "Emitted Color" "Red"
-			(at 39.37 181.61 0)
+			(at 74.93 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19161,7 +19138,7 @@
 			)
 		)
 		(property "Diode Configuration" "Independent Diode"
-			(at 39.37 181.61 0)
+			(at 74.93 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19170,7 +19147,7 @@
 			)
 		)
 		(property "Lens Color" "Colorless Transparent Lens"
-			(at 39.37 181.61 0)
+			(at 74.93 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
