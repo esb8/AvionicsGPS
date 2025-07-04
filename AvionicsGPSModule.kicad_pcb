@@ -18368,6 +18368,7 @@
 			(size 2.5 2.5)
 			(property pad_prop_heatsink)
 			(layers "F.Cu" "F.Mask")
+			(net 2 "GND")
 			(zone_connect 2)
 			(uuid "7d2c5324-8939-492e-a662-4d57873ef415")
 		)
@@ -22146,6 +22147,14 @@
 		(layer "F.Cu")
 		(net 2)
 		(uuid "6a24cd78-f8da-4973-983d-a15cae5ce20f")
+	)
+	(segment
+		(start 137.8625 99.2625)
+		(end 137.8625 97.325)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "6ac78320-0888-449d-a307-64e4e8e50073")
 	)
 	(segment
 		(start 144.3 97.27)
